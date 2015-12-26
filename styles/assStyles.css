@@ -1,0 +1,99 @@
+* {margin: 0; padding: 0; }
+
+body
+{
+  font-family: arial;
+  background-color: #ebebeb;
+}
+
+#header
+{
+  background-color:black;
+  height: 100px;
+  width: 100%;
+}
+
+.container
+{
+  width: 960px;
+  height: auto;
+  margin: 0 auto;
+}
+#logoArea
+{
+  width: 300px;
+  height: 100px;
+/**change logo image here**/
+
+  background-image: url("../images/originalsmall.png" );
+  /**background-image: url("../images/bobby.jpg" );**/
+  background-repeat: no-repeat;
+  float: left;
+}
+
+#navArea
+{
+  height: 100px;
+  float: right;
+}
+
+#nav
+{
+  list-style: none;
+  margin-top: 30px;
+}
+
+#nav a
+{
+  color:white;
+  text-decoration: none;
+}
+
+#nav li
+{
+  float: left;
+  margin-left: 20px;
+  background-color: #252525;
+  padding: 8px;
+  border: 1px solid silver;
+  border-radius: 5px
+}
+#nav li:hover
+{
+  background-color: gray;
+}
+
+.page
+{
+  background-color: white;
+  padding: 20px;
+  padding-bottom: 1px;
+
+}
+
+#footer
+{
+  background-color: black;
+  height: 40px;
+  width: 100%;
+  color: white;
+  padding-top: 20px;
+}
+
+p
+{
+  margin-bottom: 20px;
+}
+
+aside{
+  width: 230px;
+  float: right;
+  padding:0px 0px 0px 10px;
+  display: block;
+  padding: 10px;
+  border-bottom:1px solid #efefef;
+}
+aside: hover{
+  color: #de6581;
+  text-decoration: none;
+}
